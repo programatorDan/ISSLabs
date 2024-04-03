@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.isslab.controller.RoomController"
+            prefHeight="270.0" prefWidth="225.0">
+    <VBox spacing="10" alignment="CENTER" AnchorPane.topAnchor="10" AnchorPane.leftAnchor="10">
+    <GridPane vgap="5" hgap="5">
+        <Label text="Row 1" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+        <ToggleButton text="1" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+        <ToggleButton text="2" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+        <ToggleButton text="3" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+        <ToggleButton text="4" GridPane.rowIndex="0" GridPane.columnIndex="4"/>
+        <ToggleButton text="5" GridPane.rowIndex="0" GridPane.columnIndex="5"/>
+        <ToggleButton text="6" GridPane.rowIndex="0" GridPane.columnIndex="6"/>
+        <Label text="Row 2" GridPane.rowIndex="1" GridPane.columnIndex="3"/>
+        <ToggleButton text="1" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+        <ToggleButton text="2" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+        <ToggleButton text="3" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+        <ToggleButton text="4" GridPane.rowIndex="1" GridPane.columnIndex="4"/>
+        <ToggleButton text="5" GridPane.rowIndex="1" GridPane.columnIndex="5"/>
+        <ToggleButton text="6" GridPane.rowIndex="1" GridPane.columnIndex="6"/>
+        <Label text="Row 3" GridPane.rowIndex="2" GridPane.columnIndex="3"/>
+        <ToggleButton text="1" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+        <ToggleButton text="2" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+        <ToggleButton text="3" GridPane.rowIndex="2" GridPane.columnIndex="2" disable="true"/>
+        <ToggleButton text="4" GridPane.rowIndex="2" GridPane.columnIndex="4" disable="true"/>
+        <ToggleButton text="5" GridPane.rowIndex="2" GridPane.columnIndex="5" disable="true"/>
+        <ToggleButton text="6" GridPane.rowIndex="2" GridPane.columnIndex="6"/>
+        <Label text="Row 4" GridPane.rowIndex="3" GridPane.columnIndex="3"/>
+        <ToggleButton text="1" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+        <ToggleButton text="2" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+        <ToggleButton text="3" GridPane.rowIndex="3" GridPane.columnIndex="2"/>
+        <ToggleButton text="4" GridPane.rowIndex="3" GridPane.columnIndex="4"/>
+        <ToggleButton text="5" GridPane.rowIndex="3" GridPane.columnIndex="5"/>
+        <ToggleButton text="6" GridPane.rowIndex="3" GridPane.columnIndex="6"/>
+        <Label text="Row 5" GridPane.rowIndex="4" GridPane.columnIndex="3"/>
+        <ToggleButton text="1" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+        <ToggleButton text="2" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+        <ToggleButton text="3" GridPane.rowIndex="4" GridPane.columnIndex="2"/>
+        <ToggleButton text="4" GridPane.rowIndex="4" GridPane.columnIndex="4"/>
+        <ToggleButton text="5" GridPane.rowIndex="4" GridPane.columnIndex="5" disable="true"/>
+        <ToggleButton text="6" GridPane.rowIndex="4" GridPane.columnIndex="6"/>
+        <Label text="Row 6" GridPane.rowIndex="5" GridPane.columnIndex="3"/>
+        <ToggleButton text="1" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+        <ToggleButton text="2" GridPane.rowIndex="5" GridPane.columnIndex="1" disable="true"/>
+        <ToggleButton text="3" GridPane.rowIndex="5" GridPane.columnIndex="2" disable="true"/>
+        <ToggleButton text="4" GridPane.rowIndex="5" GridPane.columnIndex="4"/>
+        <ToggleButton text="5" GridPane.rowIndex="5" GridPane.columnIndex="5"/>
+        <ToggleButton text="6" GridPane.rowIndex="5" GridPane.columnIndex="6"/>
+        <Label text="Row 7" GridPane.rowIndex="6" GridPane.columnIndex="3"/>
+        <ToggleButton text="1" GridPane.rowIndex="6" GridPane.columnIndex="0"/>
+        <ToggleButton text="2" GridPane.rowIndex="6" GridPane.columnIndex="1"/>
+        <ToggleButton text="3" GridPane.rowIndex="6" GridPane.columnIndex="2" disable="true"/>
+        <ToggleButton text="4" GridPane.rowIndex="6" GridPane.columnIndex="4"/>
+        <ToggleButton text="5" GridPane.rowIndex="6" GridPane.columnIndex="5"/>
+        <ToggleButton text="6" GridPane.rowIndex="6" GridPane.columnIndex="6"/>
+    </GridPane>
+        <Button text="Continue"/>
+        <Button text="Cancel"/>
+    </VBox>
+</AnchorPane>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Use case template</title>
+    <link rel="stylesheet" href="use-case.css">
+</head>
+<body>
+<table class="bordered-table">
+    <tr>
+        <td>ID and name</td>
+        <td colspan="3">ITR-3: Order one or more tickets for Spider-Man 2</td>
+    </tr>
+    <tr>
+        <td>Primary actor</td>
+        <td>User</td>
+        <td>Secondary actor</td>
+        <td>Payroll System</td>
+    </tr>
+    <tr>
+        <td>Description</td>
+        <td colspan="3">An user access the Cinema-city System from the external Internet,
+            searches for the Spider-Man 2 film to watch, selects it and chooses the sits for the tickets.
+            Client orders the tickets and receives an email with the needed data.
+        </td>
+    </tr>
+    <tr>
+        <td>Preconditions</td>
+        <td colspan="3">User must have an account for the app or register</td>
+    </tr>
+    <tr>
+        <td>Post-conditions</td>
+        <td colspan="3">Post-1.Ticket/s ordered saved in the database <br>
+            Post-2.Sit/s bought by the client are updated to be occupied in the correct room</td>
+    </tr>
+    <tr>
+        <td>Normal flow</td>
+        <td colspan="3"> <b>1.0 User buys a single ticket</b>
+            <br>1. User opens the Cinema-city app
+            <br>2. If the user is not already registered, they are prompted to register
+            <br>3. If they have an account they can log in
+            <br>4. The user is directed to the homepage containing upcoming movies, browses movies, previous bookings and settings
+            <br>5. The user browses through the list of available movies and selects Spider-Man 2
+            <br>6. The app shows a more detailed page about the selected move that includes viewing times
+            <br>7. the user chooses a viewing time
+            <br>8. the app presents a siting layout for the selected viewing time
+            <br>9. the user selects a sit by clicking on the available sits
+            <br>10. selected sits are highlighted and added to their booking
+            <br>11. Once the user has selected their desired sits, they proceed by clicking continue (1.1E1)
+            <br>12. The app shows their booking details for reviewing
+            <br>13. The user provides payment method and contact information and confirm the booking proceeding payment
+            <br>14. After successful payment, the user receives a booking confirmation with details like booking ID, movie title, viewing time, selected sits
+            <br>15. Finally, the user can log out from the application, ending their session
+        </td>
+    </tr>
+    <tr>
+        <td>Alternative flow</td>
+        <td colspan="3">
+            <b>1.1 User buys more tickets</b>
+            <br>1. User selects more sits on step 9
+            <br>2. Continues with step 10
+        </td>
+    </tr>
+    <tr>
+        <td>Exceptions</td>
+        <td colspan="3"><b>1.1E1 Tow users select the same sit to buy</b>
+            <br>1. If the users have selected the same sit/sits they are informed
+            <br>2. The application returns to step 10
+        </td>
+    </tr>
+</table>
+
+<table class="bordered-table">
+    <tr>
+        <td>ID and name</td>
+        <td>ITR-2: User access the home page and access a movie</td>
+    </tr>
+    <tr>
+        <td>Primary actor</td>
+        <td>User</td>
+    </tr>
+    <tr>
+        <td>Description</td>
+        <td>An user access the Cinema-city System from the external Internet by logging in
+            and is able to see all the available movies. After he selects a movie he get redirected to a more detailed page
+        </td>
+    </tr>
+    <tr>
+        <td>Preconditions</td>
+        <td>User must have an account for the app or register</td>
+    </tr>
+    <tr>
+        <td>Post-conditions</td>
+        <td>None</td>
+    </tr>
+    <tr>
+        <td>Normal flow</td>
+        <td> <b>1.0 User access the home page and selects a movie</b>
+            <br>1. User opens the Cinema-city app
+            <br>2. If the user is not already registered, they are prompted to register
+            <br>3. If they have an account they can log in
+            <br>4. The user is directed to the homepage containing upcoming movies, browses movies, previous bookings and settings
+            <br>5. The user selects a movie form the available movies
+            <br>6. The app shows a more detailed page about the selected move that includes viewing times
+        </td>
+    </tr>
+    <tr>
+        <td>Alternative flow</td>
+        <td>
+            <b>1.1 User returns to home page and selects a different movie</b>
+            <br>1. User clicks on the 'Back' button
+            <br>2. The app returns to homepage
+            <br>3. User continues with step 5
+        </td>
+    </tr>
+</table>
+
+<table class="bordered-table">
+    <tr>
+        <td>ID and name</td>
+        <td>ITR-1: User logs in or registers to homepage</td>
+    </tr>
+    <tr>
+        <td>Primary actor</td>
+        <td>User</td>
+    </tr>
+    <tr>
+        <td>Description</td>
+        <td>An user access the Cinema-city System from the external Internet by logging in
+            and is able to see all the available movies.
+        </td>
+    </tr>
+    <tr>
+        <td>Preconditions</td>
+        <td>User must have an account for the app or register</td>
+    </tr>
+    <tr>
+        <td>Post-conditions</td>
+        <td>None</td>
+    </tr>
+    <tr>
+        <td>Normal flow</td>
+        <td> <b>1.0 User logs in</b>
+            <br>1. User opens the Cinema-city app
+            <br>2. They log in to the app by pressing 'Login'
+            <br>3. The user is directed to the homepage containing upcoming movies, browses movies, previous bookings and settings
+        </td>
+    </tr>
+    <tr>
+        <td>Alternative flow</td>
+        <td>
+            <b>1.1 User registers</b>
+            <br>1. After step 1 the user presses 'Register'
+            <br>2. The app opens a register page for the user to complete
+            <br>3. The user gives all the necessary data and presses 'Continue'
+            <br>4. The app validates the data (see 1.0E1)
+            <br>5. The app opens homepage
+        </td>
+    </tr>
+    <tr>
+        <td>Exceptions</td>
+        <td><b>1.0E1 User already exists with the given data</b>
+            <br>1. The app informs the user that there is already an account with the given data
+            <br>2. User returns to step 3
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

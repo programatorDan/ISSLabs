@@ -1,0 +1,16 @@
+.bordered-table {
+    border-collapse: collapse; /* Collapse the borders into a single line */
+    max-width: 700px;
+    margin-bottom: 10px;
+}
+
+.bordered-table th,
+.bordered-table td {
+    border: 1px solid black; /* Set a single line border for table cells */
+    padding: 8px; /* Add padding for better spacing */
+    min-width: 120px;
+}
+
+.bordered-table th {
+    background-color: #f2f2f2; /* Add background color for table headers */
+}

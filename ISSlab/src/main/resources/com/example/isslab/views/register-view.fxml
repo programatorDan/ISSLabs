@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.isslab.controller.RegisterController"
+            prefHeight="180.0" prefWidth="250.0">
+    <GridPane AnchorPane.leftAnchor="10" AnchorPane.topAnchor="10" vgap="5" hgap="5">
+        <Label GridPane.columnIndex="0" GridPane.rowIndex="0" text="Email"/>
+        <TextField GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+        <Label GridPane.columnIndex="0" GridPane.rowIndex="1" text="Password"/>
+        <PasswordField GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+        <Label GridPane.columnIndex="0" GridPane.rowIndex="2" text="Confirm"/>
+        <PasswordField GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+        <Label GridPane.columnIndex="0" GridPane.rowIndex="3" text="Phone"/>
+        <TextField GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+        <Button GridPane.columnIndex="0" GridPane.rowIndex="4" text="Continue"/>
+        <Button GridPane.rowIndex="4" GridPane.columnIndex="1" text="Cancel"/>
+    </GridPane>
+</AnchorPane>
