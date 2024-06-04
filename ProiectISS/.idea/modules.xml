@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Model.iml" filepath="$PROJECT_DIR$/Model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Model.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Model.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Model.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Model.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Persistence.iml" filepath="$PROJECT_DIR$/Persistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-37714630/Persistence.Model.iml" filepath="$PROJECT_DIR$/.idea/modules/-37714630/Persistence.Model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-37714630/Persistence.Model.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-37714630/Persistence.Model.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-37714630/Persistence.Model.test.iml" filepath="$PROJECT_DIR$/.idea/modules/-37714630/Persistence.Model.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Persistence.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Persistence.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Persistence.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Persistence.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProiectISS.iml" filepath="$PROJECT_DIR$/ProiectISS.iml" />
+    </modules>
+  </component>
+</project>

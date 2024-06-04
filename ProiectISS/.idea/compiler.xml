@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Model" target="17" />
+      <module name="Model.main" target="17" />
+      <module name="Model.test" target="17" />
+      <module name="Persistence" target="17" />
+      <module name="Persistence.main" target="17" />
+      <module name="Persistence.Model" target="17" />
+      <module name="Persistence.Model.main" target="17" />
+      <module name="Persistence.Model.test" target="17" />
+      <module name="Persistence.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

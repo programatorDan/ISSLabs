@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.isslab.controller.AdminController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <VBox spacing="10" AnchorPane.topAnchor="10" AnchorPane.leftAnchor="10">
+    <GridPane hgap="5">
+        <TableView prefHeight="300" GridPane.columnIndex="0" GridPane.rowIndex="0">
+            <columns>
+                <TableColumn text="Movie"/>
+            </columns>
+        </TableView>
+        <VBox GridPane.rowIndex="0" GridPane.columnIndex="1" spacing="10" alignment="CENTER">
+            <TextField promptText="Title" prefWidth="175"/>
+            <TextField promptText="Time" prefWidth="175"/>
+            <DatePicker prefWidth="175"/>
+            <ComboBox promptText="Room" prefWidth="175"/>
+        </VBox>
+    </GridPane>
+    <HBox spacing="20" alignment="CENTER">
+        <Button text="Add" prefWidth="60"/>
+        <Button text="Delete" prefWidth="60"/>
+        <Button text="Update" prefWidth="60"/>
+    </HBox>
+    </VBox>
+
+</AnchorPane>
