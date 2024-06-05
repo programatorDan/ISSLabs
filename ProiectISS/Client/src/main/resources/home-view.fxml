@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.controller.UserController"
+            prefHeight="375.0" prefWidth="270.0">
+    <VBox alignment="CENTER" spacing="5" AnchorPane.topAnchor="5" AnchorPane.leftAnchor="5">
+        <HBox spacing="5">
+            <Button alignment="CENTER" text="Search"/>
+            <TextField alignment="CENTER" prefWidth="200"/>
+        </HBox>
+        <TableView prefHeight="300">
+            <columns>
+                <TableColumn text="Movie"/>
+            </columns>
+        </TableView>
+        <Button text="Logout"/>
+    </VBox>
+</AnchorPane>

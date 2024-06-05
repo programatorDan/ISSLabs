@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.controller.LoginController"
+            prefHeight="135.0" prefWidth="250.0">
+    <VBox alignment="CENTER" spacing="5" AnchorPane.topAnchor="10" AnchorPane.leftAnchor="20">
+        <GridPane alignment="CENTER" hgap="5" vgap="5">
+            <Label text="Email:" alignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+            <TextField fx:id="username" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+            <Label text="Password:" alignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+            <PasswordField fx:id="password" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+        </GridPane>
+        <Button alignment="CENTER" text="Login"/>
+        <Button alignment="CENTER" text="Register"/>
+    </VBox>
+</AnchorPane>

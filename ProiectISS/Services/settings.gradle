@@ -1,0 +1,4 @@
+rootProject.name = 'Services'
+include 'Model'
+project(':Model').projectDir = new File(settingsDir, '../Model')
+

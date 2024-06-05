@@ -1,0 +1,10 @@
+rootProject.name = 'Server'
+include 'Model'
+project(':Model').projectDir = new File(settingsDir, '../Model')
+include 'Services'
+project(':Services').projectDir = new File(settingsDir, '../Services')
+include 'Persistence'
+project(':Persistence').projectDir = new File(settingsDir, '../Persistence')
+include 'Networking'
+project(':Networking').projectDir = new File(settingsDir, '../Networking')
+

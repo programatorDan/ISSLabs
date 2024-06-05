@@ -1,0 +1,6 @@
+rootProject.name = 'Networking'
+include 'Model'
+project(':Model').projectDir = new File(settingsDir, '../Model')
+include 'Services'
+project(':Services').projectDir = new File(settingsDir, '../Services')
+

@@ -2,15 +2,57 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="Client" target="17" />
+      <module name="Client.main" target="17" />
+      <module name="Client.Model" target="17" />
+      <module name="Client.Model.main" target="17" />
+      <module name="Client.Model.test" target="17" />
+      <module name="Client.Networking" target="17" />
+      <module name="Client.Networking.main" target="17" />
+      <module name="Client.Networking.test" target="17" />
+      <module name="Client.Services" target="17" />
+      <module name="Client.Services.main" target="17" />
+      <module name="Client.Services.test" target="17" />
+      <module name="Client.test" target="17" />
       <module name="Model" target="17" />
       <module name="Model.main" target="17" />
       <module name="Model.test" target="17" />
+      <module name="Networking" target="17" />
+      <module name="Networking.main" target="17" />
+      <module name="Networking.Model" target="17" />
+      <module name="Networking.Model.main" target="17" />
+      <module name="Networking.Model.test" target="17" />
+      <module name="Networking.Services" target="17" />
+      <module name="Networking.Services.main" target="17" />
+      <module name="Networking.Services.test" target="17" />
+      <module name="Networking.test" target="17" />
       <module name="Persistence" target="17" />
       <module name="Persistence.main" target="17" />
       <module name="Persistence.Model" target="17" />
       <module name="Persistence.Model.main" target="17" />
       <module name="Persistence.Model.test" target="17" />
       <module name="Persistence.test" target="17" />
+      <module name="Server" target="17" />
+      <module name="Server.main" target="17" />
+      <module name="Server.Model" target="17" />
+      <module name="Server.Model.main" target="17" />
+      <module name="Server.Model.test" target="17" />
+      <module name="Server.Networking" target="17" />
+      <module name="Server.Networking.main" target="17" />
+      <module name="Server.Networking.test" target="17" />
+      <module name="Server.Persistence" target="17" />
+      <module name="Server.Persistence.main" target="17" />
+      <module name="Server.Persistence.test" target="17" />
+      <module name="Server.Services" target="17" />
+      <module name="Server.Services.main" target="17" />
+      <module name="Server.Services.test" target="17" />
+      <module name="Server.test" target="17" />
+      <module name="Services" target="17" />
+      <module name="Services.main" target="17" />
+      <module name="Services.Model" target="17" />
+      <module name="Services.Model.main" target="17" />
+      <module name="Services.Model.test" target="17" />
+      <module name="Services.test" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

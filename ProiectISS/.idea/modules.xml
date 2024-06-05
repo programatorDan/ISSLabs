@@ -2,9 +2,30 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Client.iml" filepath="$PROJECT_DIR$/Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-37714630/Client.Model.iml" filepath="$PROJECT_DIR$/.idea/modules/-37714630/Client.Model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-37714630/Client.Model.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-37714630/Client.Model.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-37714630/Client.Model.test.iml" filepath="$PROJECT_DIR$/.idea/modules/-37714630/Client.Model.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1564147587/Client.Networking.iml" filepath="$PROJECT_DIR$/.idea/modules/1564147587/Client.Networking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1564147587/Client.Networking.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1564147587/Client.Networking.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1564147587/Client.Networking.test.iml" filepath="$PROJECT_DIR$/.idea/modules/1564147587/Client.Networking.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-571735891/Client.Services.iml" filepath="$PROJECT_DIR$/.idea/modules/-571735891/Client.Services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-571735891/Client.Services.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-571735891/Client.Services.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-571735891/Client.Services.test.iml" filepath="$PROJECT_DIR$/.idea/modules/-571735891/Client.Services.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Client.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Client.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Client.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Client.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/Model.iml" filepath="$PROJECT_DIR$/Model.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Model.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Model.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Model.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Model.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Networking.iml" filepath="$PROJECT_DIR$/Networking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-37714630/Networking.Model.iml" filepath="$PROJECT_DIR$/.idea/modules/-37714630/Networking.Model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-37714630/Networking.Model.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-37714630/Networking.Model.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-37714630/Networking.Model.test.iml" filepath="$PROJECT_DIR$/.idea/modules/-37714630/Networking.Model.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-571735891/Networking.Services.iml" filepath="$PROJECT_DIR$/.idea/modules/-571735891/Networking.Services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-571735891/Networking.Services.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-571735891/Networking.Services.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-571735891/Networking.Services.test.iml" filepath="$PROJECT_DIR$/.idea/modules/-571735891/Networking.Services.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Networking.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Networking.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Networking.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Networking.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/Persistence.iml" filepath="$PROJECT_DIR$/Persistence.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-37714630/Persistence.Model.iml" filepath="$PROJECT_DIR$/.idea/modules/-37714630/Persistence.Model.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-37714630/Persistence.Model.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-37714630/Persistence.Model.main.iml" />
@@ -12,6 +33,27 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Persistence.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Persistence.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Persistence.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Persistence.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProiectISS.iml" filepath="$PROJECT_DIR$/ProiectISS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Server.iml" filepath="$PROJECT_DIR$/Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-37714630/Server.Model.iml" filepath="$PROJECT_DIR$/.idea/modules/-37714630/Server.Model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-37714630/Server.Model.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-37714630/Server.Model.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-37714630/Server.Model.test.iml" filepath="$PROJECT_DIR$/.idea/modules/-37714630/Server.Model.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1564147587/Server.Networking.iml" filepath="$PROJECT_DIR$/.idea/modules/1564147587/Server.Networking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1564147587/Server.Networking.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1564147587/Server.Networking.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1564147587/Server.Networking.test.iml" filepath="$PROJECT_DIR$/.idea/modules/1564147587/Server.Networking.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1890401264/Server.Persistence.iml" filepath="$PROJECT_DIR$/.idea/modules/1890401264/Server.Persistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1890401264/Server.Persistence.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1890401264/Server.Persistence.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1890401264/Server.Persistence.test.iml" filepath="$PROJECT_DIR$/.idea/modules/1890401264/Server.Persistence.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-571735891/Server.Services.iml" filepath="$PROJECT_DIR$/.idea/modules/-571735891/Server.Services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-571735891/Server.Services.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-571735891/Server.Services.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-571735891/Server.Services.test.iml" filepath="$PROJECT_DIR$/.idea/modules/-571735891/Server.Services.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Server.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Server.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Services.iml" filepath="$PROJECT_DIR$/Services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-37714630/Services.Model.iml" filepath="$PROJECT_DIR$/.idea/modules/-37714630/Services.Model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-37714630/Services.Model.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-37714630/Services.Model.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-37714630/Services.Model.test.iml" filepath="$PROJECT_DIR$/.idea/modules/-37714630/Services.Model.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Services.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Services.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Services.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Services.test.iml" />
     </modules>
   </component>
 </project>

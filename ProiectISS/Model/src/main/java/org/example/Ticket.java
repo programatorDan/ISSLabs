@@ -12,7 +12,7 @@ public class Ticket extends org.example.Entity<Long> {
     private Movie Movie;
     private Booking Booking;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne
     @JoinColumn(name = "booking")
     public org.example.Booking getBooking() {
         return Booking;
@@ -22,7 +22,7 @@ public class Ticket extends org.example.Entity<Long> {
         Booking = booking;
     }
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne
     @JoinColumn(name = "movie")
     public org.example.Movie getMovie() {
         return Movie;

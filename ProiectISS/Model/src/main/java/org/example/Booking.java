@@ -21,7 +21,7 @@ public class Booking extends org.example.Entity<Long> {
         this.tickets = tickets;
     }
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne
     @JoinColumn(name = "client")
     public Client getBoughtBy() {
         return BoughtBy;

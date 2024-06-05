@@ -41,7 +41,7 @@ public class Movie extends org.example.Entity<Long> {
         Timestamp = timestamp;
     }
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne
     @JoinColumn(name = "room")
     public org.example.Room getRoom() {
         return Room;
