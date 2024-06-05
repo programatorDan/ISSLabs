@@ -7,6 +7,10 @@
       <sourceFolder url="file://$MODULE_DIR$/../../Model/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../Model/src/main/resources" type="java-resource" />
     </content>
+    <content url="file://$MODULE_DIR$/../../Model/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../Model/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Model/src/main/resources" type="java-resource" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: jakarta.persistence:jakarta.persistence-api:3.1.0" level="project" />

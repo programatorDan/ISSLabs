@@ -7,6 +7,10 @@
       <sourceFolder url="file://$MODULE_DIR$/../../Client/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../Client/src/main/resources" type="java-resource" />
     </content>
+    <content url="file://$MODULE_DIR$/../../Client/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../Client/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Client/src/main/resources" type="java-resource" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: org.openjfx:javafx-fxml:win:17" level="project" />
